@@ -1,7 +1,5 @@
 # loops-jmh-playground
 
-Blog post about JMH benchmarking streams, forEach, etc: http://blog.takipi.com/benchmark-how-java-8-lambdas-and-streams-can-make-your-code-5-times-slower/
-
 ## Latest results:
 
 |Benchmark                                  | Mode  |Cnt  |Score    |Error | Units|
@@ -15,6 +13,3 @@ Blog post about JMH benchmarking streams, forEach, etc: http://blog.takipi.com/b
 |LoopBenchmarkMain.parallelStreamMaxInteger | avgt  | 10  |0.090 ?  |0.002 | ms/op|
 |LoopBenchmarkMain.streamMaxInteger         | avgt  | 10  |0.123 ?  |0.003 | ms/op|
 
-## Acknowledgments
-
-Thanks: [reinhapa](https://github.com/reinhapa), [RichardWarburton](https://github.com/RichardWarburton), [ybonnel](https://github.com/ybonnel) for your comments and contribution!
